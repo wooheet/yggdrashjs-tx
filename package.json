@@ -14,7 +14,10 @@
     "yggdrash",
     "transaction"
   ],
-  "author": "Tedy <tedy@r2v.io>",
+  "author": {
+    "name": "tedy",
+    "email": "tedy@r2v.io"
+  },
   "license": "MIT",
   "dependencies": {
     "yggdrashjs-util": "^0.0.1"
