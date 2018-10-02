@@ -1,20 +1,20 @@
 {
   "name": "yggdrashjs-tx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "npm yggdrashjs-tx",
   "main": "index.js",
   "scripts": {
-    "test": "node ygg.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/r2v/yggdrash-tx/src/master/"
+    "url": "https://bitbucket.org/r2v/yggdrashjs-tx/src/master/"
   },
   "keywords": [
     "yggdrash",
     "transaction"
   ],
-  "author": "Tedy",
+  "author": "Tedy <tedy@r2v.io>",
   "license": "MIT",
   "dependencies": {
     "yggdrashjs-util": "^0.0.1"

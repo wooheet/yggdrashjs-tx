@@ -31,8 +31,8 @@ var headerHash = ""
  * @param {Buffer} data.chain branch ID
  * @param {Buffer} data.version this brnach version
  * @param {Buffer} data.type this branch type
- * @param {Buffer} data.timeStamp timestamp
- * @param {Buffer} data.bodyHashHex body hash to sha3 
+ * @param {Buffer} data.timeStamp Expressed in 1/1000 second
+ * @param {Buffer} data.bodyHashHex Serialized body to hash value
  * @param {Buffer} data.bodyLength body length
  * @param {Buffer} data.v EC signature parameter
  * @param {Buffer} data.r EC signature parameter
@@ -139,13 +139,17 @@ class Transaction {
     return sha3(itemResult)
   }
 
+  /**
+   * transaction header hash
+   * @return {String}
+   */
   headerHash () {
     return headerHash
   }
 
   /**
    * serialize signature
-   * @return {hex string}
+   * @return {String}
    */
   vrs (signature) {
     return this.v.toString('hex')
@@ -153,8 +157,8 @@ class Transaction {
    }
 
    /**
-   * serialize signature
-   * @return {hex string}
+   * this transaction hash
+   * @return {String}
    */
   getTxHash (signature) {
     const txHash = this.headerHash() + this.vrs(signature)

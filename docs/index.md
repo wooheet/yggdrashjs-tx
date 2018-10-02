@@ -26,7 +26,7 @@ Creates a new transaction object.
 ```javascript
 var rawTx = {
   chain: 'fe7b7c93dd23f78e12ad42650595bc0f874c88f7',
-  version: '0000000000000000',
+  won: '0000000000000000',
   type: '0000000000000000',
   timeStamp: '000000005bada008',
   bodyHashHex: 'f2feb937f282f105a24e47a69fbd0d705be3771cce695247d391fa5b6f8a7608',
