@@ -1,6 +1,6 @@
 {
   "name": "yggdrashjs-tx",
-  "version": "0.0.1",
+  "version": "1.0.0.beta.1",
   "description": "npm yggdrashjs-tx",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooheet/yggdrashjs-tx.git"
+    "url": "https://bitbucket.org/r2v/yggdrashjs-tx/src/master/"
   },
   "keywords": [
     "yggdrash",
     "transaction"
   ],
-  "author": {
-    "name": "tedy",
-    "email": "tedy@r2v.io"
-  },
+  "author": "Tedy <tedy@r2v.io>",
   "license": "MIT",
   "dependencies": {
     "yggdrashjs-util": "^0.0.1"
